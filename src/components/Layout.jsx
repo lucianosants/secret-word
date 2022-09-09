@@ -22,7 +22,7 @@ export default function Layout() {
 	const [pikedWord, setPikedWord] = useState('');
 	const [letters, setLetters] = useState([]);
 
-	const guessesDefault = 3;
+	const guessesDefault = 10;
 
 	const [guessedLetters, setGuessedLetters] = useState([]);
 	const [wrongLetters, setWrongLetters] = useState([]);
